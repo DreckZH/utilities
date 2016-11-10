@@ -1,6 +1,6 @@
 
 
-
+//calculate two bytes CRC
 int calcCRC(const char * crcStartPtr, int  buffLen)
 {
 	int crc = 0xFFFF;
